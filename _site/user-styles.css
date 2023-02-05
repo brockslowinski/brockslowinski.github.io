@@ -1,0 +1,53 @@
+/* this is an example of importing a google font */
+/* Locate the font you want and put the name where "Permanent+Marker" is (use + if there's a space) */
+/* When referencing it below, type it like this 'Permanent Marker' */
+@import "https://fonts.googleapis.com/css?family=Poppins";
+
+/* this is an example of importing a font from the user-fonts folder */
+/* when referencing it below, use the name you gave it in font-family */
+@font-face {
+    font-family: "Scaffolding";
+    src: url("user-fonts/PT-F6Scaffolding-Regular.woff2") format("woff2"),
+        url("user-fonts/PT-F6Scaffolding-Regular.woff") format("woff");
+}
+
+:root {
+    /* color of the whole page */
+    --color-background: #3b00e5;
+    /* color of text elements */
+    --color-foreground: black;
+}
+
+/* these are settings for all text */
+body {
+    font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* this is the style for the intro text */
+#intro-text p {
+    font-size: 32pt;
+}
+
+/* this will show up on custom pages */
+.custom-page-text {
+    font-size: 32pt;
+}
+
+/* this is the style for the links */
+.menu-link {
+    font-size: 18pt;
+}
+
+/* setting this to a pixel value will cap the width of title text, images and description */
+#title-container {
+    width: 100%;
+}
+
+/* this is the title text */
+#title-text {
+    /* this is the title size and will change based on the browser's width */
+    /* use 10vw for a medium sized name like John Smith */
+    /* use 8vw for a longer name like Pedestrian Tactics */
+    /* use 20vw for a shorter name like Klippee */
+    font-size: 13vw;
+}

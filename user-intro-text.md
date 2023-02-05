@@ -1,1 +1,1 @@
-A new wonderful project by [Pedestrian Tactics](http://pedestriantactics.com)
+A beautiful chaotic disaster by [vaenom](http://vaenom.com)

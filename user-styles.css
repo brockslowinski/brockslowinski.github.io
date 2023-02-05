@@ -1,7 +1,7 @@
 /* this is an example of importing a google font */
 /* Locate the font you want and put the name where "Permanent+Marker" is (use + if there's a space) */
 /* When referencing it below, type it like this 'Permanent Marker' */
-@import "https://fonts.googleapis.com/css?family=Permanent+Marker";
+@import "https://fonts.googleapis.com/css?family=Poppins";
 
 /* this is an example of importing a font from the user-fonts folder */
 /* when referencing it below, use the name you gave it in font-family */
@@ -13,14 +13,14 @@
 
 :root {
     /* color of the whole page */
-    --color-background: #ffff00;
+    --color-background: #3b00e5;
     /* color of text elements */
     --color-foreground: black;
 }
 
 /* these are settings for all text */
 body {
-    font-family: 'Scaffolding', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /* this is the style for the intro text */
